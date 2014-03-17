@@ -1,4 +1,4 @@
 mySlides
 ========
 
-nothing for now
+* python-django slides on python-django branch
