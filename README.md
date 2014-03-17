@@ -1,4 +1,4 @@
-mySlides
-========
+Python-Django slides
+====================
 
-nothing for now
+description:
