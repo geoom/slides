@@ -1,11 +1,11 @@
 var SLIDE_CONFIG = {
   settings: {
     title: 'Python/Django talk',
-    subtitle: 'Your better choice for agile and robust projects',
-    eventInfo: {
-     title: 'Bootcamp trainings - python/django',
-     date: 'x/x/xxxx'
-    },
+    subtitle: 'all you need to build agile and robust projects',
+    // eventInfo: {
+    //  title: 'Bootcamp trainings - python/django',
+    //  date: '20/3/2014'
+    // },
     useBuilds: true, // Default: true. False will turn off slide animation builds.
     usePrettify: true, // Default: true
     enableSlideAreas: true, // Default: true. False turns off the click areas on either slide of the slides.
@@ -22,9 +22,10 @@ var SLIDE_CONFIG = {
   presenters: [
     {
       name: 'George Mejia',
-      company: 'Startupplace',
+      company: 'Software developer<br>StartupPlace',
       twitter: '@geoome',
-      github: 'http://github.com/geoom'
+      github: 'http://github.com/geoom',
+      email: 'hi.geoom@gmail.com',
     },
   ]
 };
