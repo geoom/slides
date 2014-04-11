@@ -17,6 +17,14 @@
   <link rel="stylesheet" media="only screen and (max-device-width: 480px)" href="theme/css/phone.css">
   <base target="_blank"> <!-- This amazingness opens all links in a new tab. -->
   <script data-main="js/slides" src="js/require-1.0.8.min.js"></script>
+  <style type="text/css">
+  .inline{
+    display: inline-block;
+  }
+  .bg-light{
+    background-color: rgb(232, 240, 140);
+  }
+  </style>
 </head>
 <body style="opacity: 0">
   <slides class="layout-widescreen">
@@ -59,6 +67,174 @@
 
     <slide class="fill nobackground" style="background-image: url(images/full/harness-of-python.jpg)"></slide>
 
+    <slide class="fill nobackground" style="background-image: url(images/full/python-pet.jpg)">
+      <hgroup>
+        <h2 class="white">but some believes that ...</h2>
+      </hgroup>
+    </slide>
+
+    <slide>
+      <hgroup>
+        <h2>Python is your friend</h2>
+        <h3>The language that lets you work quickly</h3>
+      </hgroup>
+      <article>
+        <ul>
+          <li>it's high-level programming language.</li>
+          <li>it's a widely used general-purpose.</li>
+          <li>you can create web apps, games, even a search engine!</li>
+          <li>supports multiple programming paradigms, including object-oriented, imperative and functional programming or procedural styles.</li>
+          <li>It features a dynamic type system and automatic memory management.</li>
+          <li>It has a large and comprehensive standard library..</li>
+          <li>it's an easy to learn programming language.</li>
+          <li>Python is often used as a scripting language!</li>
+          <li>Created by Guido van Rossum</li>
+        </ul>
+        <p>I want see it! *-*</p>
+      </article>
+    </slide>
+
+      <slide>
+        <hgroup>
+          <h2>Conditionals, loops and Control Flow</h2>
+        </hgroup>
+        <article class="smaller">
+          <pre class="prettyprint" data-lang="php">
+          $name = "Jon";
+          if($name == "Jon"){
+            $name = "Jon Rocks!";
+          }
+          elseif($name == "Mary"){
+            $name = "Hello Mary";
+          }
+          else{
+            for ($i=0; $i &lt; 5; $i++) {
+              echo "Number ".$count." Who are you?";
+            }
+          }
+          </pre>
+          <pre class="prettyprint" data-lang="python">
+            name = "Jon"
+            if name == "Jon":
+              name = "Jon Rocks!"
+            elif name == "Mary":
+              name = "Hello Mary"
+            else:
+              for i in range(4):
+                print "Number %i Who are you?" % count
+          </pre>
+        </article>
+    </slide>
+
+    <slide>
+        <hgroup>
+          <h2>Classes</h2>
+        </hgroup>
+        <article class="smaller">
+          <pre class="prettyprint" data-lang="java">
+          public class Employee{
+            private String myEmployeeName;
+            private int myTaxDeductions = 1;
+            private String myMaritalStatus = "single";
+
+            public Employee(String EmployeName){
+              this(employeeName, 1);
+            }
+
+            public Employee(String EmployeName, int taxDeductions){
+              this(employeeName, taxDeductions, "single");
+            }
+
+            public Employee(String EmployeName, int taxDeductions, String maritalStatus) {
+              this.employeeName = employeeName;
+              this.taxDeductions = taxDeductions;
+              this.maritalStatus = maritalStatus;
+            }
+          }
+          </pre>
+          <pre class="prettyprint" data-lang="python">
+            class Employee(object):
+              def __init__(self, employeeName, taxDeductions=1, maritalStatus="single"):
+                self.employeeName = employeeName
+                self.taxDeductions = taxDeductions
+                self.maritalStatus = maritalStatus
+          </pre>
+        </article>
+    </slide>
+
+
+
+
+    <slide class="fill nobackground" style="background-image: url(images/full/girl_learning.jpg)">
+      <hgroup>
+        <h2 class="white">ok ok ... but, how to learn correctly?</h2>
+      </hgroup>
+    </slide>
+
+    <slide>
+      <hgroup>
+        <h2>Guidelines to learning ...</h2>
+      </hgroup>
+      <article>
+        <ul class="build">
+          <li>run 'import this' in console.</li>
+          <li><a href="http://www.codecademy.com/tracks/python">Code academy</a> is cool.</li>
+          <li>Don't forget <a href="http://legacy.python.org/dev/peps/pep-0008/"></a>PEP8.</li>
+          <li><a href="https://developers.google.com/edu/python/exercises/baby-names">exercises</a> from Google.</li>
+          <li>Searching in <a href="https://github.com/search?q=stars%3A%3E3+pushed%3A%22%3E+2013-01-01%22+extension%3Apy&type=Repositories&ref=advsearch&l=Python">Github</a>.</li>
+          <li> optional to play some more
+            <ul>
+              <li><a href="https://github.com/zhiwehu/Python-programming-exercises/blob/master/100%2B%20Python%20challenging%20programming%20exercises.txt"></a>
+                100+ Python challenging programming exercises
+              </li>
+              <li>Programación orientada a objetos con <a href="http://www.maestrosdelweb.com/editorial/guia-python/g">maestros del web.</a></li>
+            </ul>
+          </li>
+        </ul>
+      </article>
+    </slide>
+
+    <slide class="segue dark quote nobackground">
+      <aside class="gdbar right bottom"><img src="images/sp-bootcamp-logo-128.png"></aside>
+      <article class="flexbox vleft auto-fadein">
+        <q>
+          The mission is to promote, protect, and advance the Python programming language, and to support and facilitate the growth of a diverse and international community of Python programmers.
+        </q>
+        <div class="author">
+          Python Software Foundation
+        </div>
+      </article>
+    </slide>
+    
+    <slide class="fill nobackground" style="background-image: url(images/full/pythonorg.jpg)"></slide>
+
+    <slide>
+      <hgroup>
+        <h2>Enviroment</h2>
+      </hgroup>
+      <article>
+        <ul>
+          <li>Using PIP to manage python packages.</li>
+          <li>Virtualenv makes environments relocatable.</li>
+          <li>Git versions and distributes your projects</li>
+          <li>SublimeText is cool but PyCharm is more cool.</li>
+          <li>Github is still social network for developers like you :)</li>
+        </ul>
+      </article>
+    </slide>
+
+    <slide class="fill nobackground" style="background-image: url(images/full/tools_rusted.jpg)">
+      <hgroup>
+        <h2 class="white">You already have the power :)</h2>
+      </hgroup>
+    </slide>
+
+    <slide class="fill nobackground" style="background-image: url(images/full/joker_office.jpg)">
+      <hgroup>
+        <h2 class="white inline bg-light">But ... where are web apps????</h2>
+      </hgroup>
+    </slide>
+
     <slide>
       <hgroup>
         <h2>You need a framework ...</h2>
@@ -86,6 +262,8 @@
       </hgroup>
       <article>
         <ul>
+          <li>Open source.</li>
+          <li>Supported by Django Software Foundation.</li>
           <li>Developed by a fast-moving online-news operation</li>
           <li>handle two challenges</li>
           <ul>
@@ -95,8 +273,8 @@
           <li>It lets you build high-performing</li>
           <li>elegant Web applications quickly</li>
           <li>focuses on automating as much as possible</li>
+          <li>emphasizes reusability and "pluggability" of components</li>
           <li>adhering to the DRY principle.</li>
-          <li>open source.</li>
         </ul>
         <p>... but, who is using right now ?</p>
       </article>
@@ -116,6 +294,78 @@
       </article>
     </slide>
 
+    <slide class="fill nobackground" style="background-image: url(images/full/schema-django.png)">
+      <hgroup>
+        <h2 class="blue3">Easy schema</h2>
+      </hgroup>
+    </slide>
+
+
+    <slide class="fill nobackground" style="background-image: url(images/full/information-flow.jpg)">
+      <hgroup>
+        <h2 class="white">Models</h2>
+      </hgroup>
+    </slide>
+
+    <slide class="fill nobackground" style="background-image: url(images/full/network.jpg)">
+      <hgroup>
+        <h2 class="white">Routes</h2>
+      </hgroup>
+    </slide>
+
+    <slide class="fill nobackground" style="background-image: url(images/full/video-games.jpg)">
+      <hgroup>
+        <h2 class="white">Views</h2>
+      </hgroup>
+    </slide>
+
+    <slide class="fill nobackground" style="background-image: url(images/full/interface.jpg)">
+      <hgroup>
+        <h2 class="white">Templates</h2>
+      </hgroup>
+    </slide>
+
+    <slide class="fill nobackground" style="background-image: url(images/full/chips-circuits.jpg)">
+      <hgroup>
+        <h2 class="white">Admin</h2>
+      </hgroup>
+    </slide>
+
+    <slide>
+      <hgroup>
+        <h2>And others great components ...</h2>
+      </hgroup>
+      <article>
+        <ul class="build">
+          <li>Authenitcation</li>
+          <li>Static Files</li>
+          <li>Testing</li>
+          <li>Security</li>
+          <li>Internationalization</li>
+          <li>Logging</li>
+          <li>Email Sending</li>
+          <li>RSS</li>
+          <li>Messaging</li>
+          <li>Site Maps</li>
+          <li>Testing</li>
+          <li>Testing</li>
+        </ul>
+      </article>
+    </slide>
+
+    <slide>
+      <hgroup>
+        <h2>Great books</h2>
+      </hgroup>
+      <article>
+        <ul>
+          <li>Learn Python the Hard Way</li>
+          <li>The django book (available in Spanish)</li>
+          <li>Two scoops of django best practices for django</li>
+        </ul>
+      </article>
+    </slide>
+
     <slide class="segue dark quote nobackground">
       <aside class="gdbar right bottom"><img src="images/sp-bootcamp-logo-128.png"></aside>
       <article class="flexbox vleft auto-fadein">
@@ -126,6 +376,21 @@
           Larry Wall<br>
           Creator of Perl programming language.
         </div>
+      </article>
+    </slide>
+
+    <slide>
+      <hgroup>
+        <h2>Guidelines to learning ...</h2>
+      </hgroup>
+      <article>
+        <ul class="build">
+          <li>Don't forget PEP8.</li>
+          <li><a href="http://tutorialdjango.com.ar/"></a>Django tutorial from djangoproject (in Spanish)</li>
+          <li>Curso de Django con <a href="http://www.maestrosdelweb.com/editorial/curso-django-introduccion/">maestros del web</a></li>
+          <li><a href="https://github.com/geoom/django-basic-apps">Django basic apps</a>.</li>
+          <li>Searching in <a href="https://github.com/search?q=stars%3A%3E3+pushed%3A%22%3E+2013-01-01%22+extension%3Apy+django&type=Repositories&ref=searchresults">Github</a>.</li>
+        </ul>
       </article>
     </slide>
 
@@ -153,5 +418,5 @@
       <script src="http://ajax.googleapis.com/ajax/libs/chrome-frame/1/CFInstall.min.js"></script>
       <script>CFInstall.check({mode: 'overlay'});</script>
       <![endif]-->
-    </body>
-    </html>
+</body>
+</html>

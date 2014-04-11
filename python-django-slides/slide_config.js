@@ -1,7 +1,7 @@
 var SLIDE_CONFIG = {
   settings: {
-    title: 'Python/Django talk',
-    subtitle: 'all you need to build agile and robust projects',
+    title: 'Python/Django for war',
+    subtitle: 'what you need to build agile and robust projects',
     // eventInfo: {
     //  title: 'Bootcamp trainings - python/django',
     //  date: '20/3/2014'
