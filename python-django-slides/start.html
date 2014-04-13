@@ -85,10 +85,10 @@
           <li>you can create web apps, games, even a search engine!</li>
           <li>supports multiple programming paradigms, including object-oriented, imperative and functional programming or procedural styles.</li>
           <li>It features a dynamic type system and automatic memory management.</li>
-          <li>It has a large and comprehensive standard library..</li>
+          <li>It has a large and comprehensive standard library.</li>
           <li>it's an easy to learn programming language.</li>
           <li>Python is often used as a scripting language!</li>
-          <li>Created by Guido van Rossum</li>
+          <li>Created by Guido van Rossum.</li>
         </ul>
         <p>I want see it! *-*</p>
       </article>
@@ -100,25 +100,28 @@
         </hgroup>
         <article class="smaller">
           <pre class="prettyprint" data-lang="php">
-          $name = "Jon";
-          if($name == "Jon"){
-            $name = "Jon Rocks!";
-          }
-          elseif($name == "Mary"){
-            $name = "Hello Mary";
-          }
-          else{
-            for ($i=0; $i &lt; 5; $i++) {
+          $name = "George";
+          $age = 20
+          if($name == "Chuck Norris")
+          {
+            echo "OH my god!";
+            if($edad &gt; 16 &amp;&amp; $edad &lt; 22){
+              echo "God is young!";
+            }
+          }else{
+            for ($i=0; $i &lt; 5; $i++) 
+            {
               echo "Number ".$count." Who are you?";
             }
           }
           </pre>
           <pre class="prettyprint" data-lang="python">
-            name = "Jon"
-            if name == "Jon":
-              name = "Jon Rocks!"
-            elif name == "Mary":
-              name = "Hello Mary"
+            name = "George"
+            age = 20
+            if name == "Chuck Norris":
+              echo "OH my god!";
+              if 16 &lt; age &gt; 22:
+                print "God is young"
             else:
               for i in range(4):
                 print "Number %i Who are you?" % count
@@ -132,38 +135,35 @@
         </hgroup>
         <article class="smaller">
           <pre class="prettyprint" data-lang="java">
-          public class Employee{
-            private String myEmployeeName;
-            private int myTaxDeductions = 1;
-            private String myMaritalStatus = "single";
+          public class Student{
+            private String code = "unassigned";
+            private String fullname;
+            private int credits = 0;
 
-            public Employee(String EmployeName){
-              this(employeeName, 1);
+            public Student(String fullname){
+              this(fullname, 0);
             }
 
-            public Employee(String EmployeName, int taxDeductions){
-              this(employeeName, taxDeductions, "single");
+            public Student(String fullname, int credits){
+              this(fullname, credits, "unassigned");
             }
 
-            public Employee(String EmployeName, int taxDeductions, String maritalStatus) {
-              this.employeeName = employeeName;
-              this.taxDeductions = taxDeductions;
-              this.maritalStatus = maritalStatus;
+            public Student(String fullname, int credits, String code) {
+              this.studentName = studentName;
+              this.credits = credits;
+              this.code = code;
             }
           }
           </pre>
           <pre class="prettyprint" data-lang="python">
-            class Employee(object):
-              def __init__(self, employeeName, taxDeductions=1, maritalStatus="single"):
-                self.employeeName = employeeName
-                self.taxDeductions = taxDeductions
-                self.maritalStatus = maritalStatus
+            class Student(object):
+              def __init__(self, fullname, credits=0, code="unassigned"):
+                self.fullname = fullname
+                self.credits = credits
+                self.code = code
           </pre>
         </article>
     </slide>
-
-
-
 
     <slide class="fill nobackground" style="background-image: url(images/full/girl_learning.jpg)">
       <hgroup>
@@ -179,13 +179,12 @@
         <ul class="build">
           <li>run 'import this' in console.</li>
           <li><a href="http://www.codecademy.com/tracks/python">Code academy</a> is cool.</li>
-          <li>Don't forget <a href="http://legacy.python.org/dev/peps/pep-0008/"></a>PEP8.</li>
+          <li>Don't forget <a href="http://legacy.python.org/dev/peps/pep-0008/">PEP8</a>.</li>
           <li><a href="https://developers.google.com/edu/python/exercises/baby-names">exercises</a> from Google.</li>
           <li>Searching in <a href="https://github.com/search?q=stars%3A%3E3+pushed%3A%22%3E+2013-01-01%22+extension%3Apy&type=Repositories&ref=advsearch&l=Python">Github</a>.</li>
           <li> optional to play some more
             <ul>
-              <li><a href="https://github.com/zhiwehu/Python-programming-exercises/blob/master/100%2B%20Python%20challenging%20programming%20exercises.txt"></a>
-                100+ Python challenging programming exercises
+              <li>100+ Python <a href="https://github.com/zhiwehu/Python-programming-exercises/blob/master/100%2B%20Python%20challenging%20programming%20exercises.txt">challenging programming exercises</a>
               </li>
               <li>Programación orientada a objetos con <a href="http://www.maestrosdelweb.com/editorial/guia-python/g">maestros del web.</a></li>
             </ul>
@@ -214,11 +213,11 @@
       </hgroup>
       <article>
         <ul>
-          <li>Using PIP to manage python packages.</li>
-          <li>Virtualenv makes environments relocatable.</li>
-          <li>Git versions and distributes your projects</li>
-          <li>SublimeText is cool but PyCharm is more cool.</li>
-          <li>Github is still social network for developers like you :)</li>
+          <li>Using <a href="https://pypi.python.org/pypi/pip">PIP</a> to manage python packages.</li>
+          <li><a href="https://pypi.python.org/pypi/virtualenv">Virtualenv</a> makes environments relocatable.</li>
+          <li><a href="http://git-scm.com/">Git</a> versions and distributes your projects</li>
+          <li><a href="http://www.sublimetext.com/">SublimeText</a> is cool but <a href="http://www.jetbrains.com/pycharm/">PyCharm</a> is more cool.</li>
+          <li><a href="https://github.com/">Github</a> is still social network for developers like you :)</li>
         </ul>
       </article>
     </slide>
@@ -241,14 +240,14 @@
       </hgroup>
       <article>
         <ul class="build">
-          <li>High-level Python Web framework</li>
-          <li>That encourages rapid development</li>
+          <li>High-level Python Web framework.</li>
+          <li>That encourages rapid development.</li>
           <li>Clean and professes pragmatic design.</li>
-          <li>Powerfull, handful</li>
+          <li>Powerfull, handful.</li>
           <li>Unconcerned about sql (mostly) :p</li>
-          <li>Accepted by comunity</li>
-          <li>With a great comunity of python</li>
-          <li>With a big support</li>
+          <li>Accepted by comunity.</li>
+          <li>With a great Python comunity.</li>
+          <li>With a big support.</li>
         </ul>
       </article>
     </slide>
@@ -264,7 +263,6 @@
         <ul>
           <li>Open source.</li>
           <li>Supported by Django Software Foundation.</li>
-          <li>Developed by a fast-moving online-news operation</li>
           <li>handle two challenges</li>
           <ul>
             <li>Deadlines of a newsroom</li>
@@ -275,6 +273,7 @@
           <li>focuses on automating as much as possible</li>
           <li>emphasizes reusability and "pluggability" of components</li>
           <li>adhering to the DRY principle.</li>
+          <li>It has a awesome admin dashboard generator</li>
         </ul>
         <p>... but, who is using right now ?</p>
       </article>
@@ -307,10 +306,70 @@
       </hgroup>
     </slide>
 
+    <slide>
+        <article class="smaller">
+          <hgroup>
+            <h3>models.py</h3>
+          </hgroup>
+          <pre class="prettyprint" data-lang="python">
+          from django.db import models
+
+          PET_KIND = (
+              ('dog', 'Dog'),
+              ('Cat', 'Cat'),
+              ('Lion', 'Lion')
+          )
+
+          class Pet(models.Model):
+              name = models.CharField(max_length=20, verbose_name='Name')
+              kind = models.CharField(max_length=10, choices=PET_KIND)
+              description = models.TextField(blank=True)
+
+              def __unicode__(self):
+                  return self.name
+
+          class News(models.Model):
+              pet = models.ForeignKey('Pet', related_name='news')
+              title = models.CharField(max_length=150)
+              content = models.TextField()
+              pub_date = models.DateTimeField(auto_now_add=True)
+
+              def __unicode__(self):
+                  return self.title
+          </pre>
+        </article>
+    </slide>
+
     <slide class="fill nobackground" style="background-image: url(images/full/network.jpg)">
       <hgroup>
         <h2 class="white">Routes</h2>
       </hgroup>
+    </slide>
+
+    <slide>
+        <article class="smaller">
+          <hgroup>
+            <h3>urls.py</h3>
+          </hgroup>
+           <br/><br/>
+          <pre class="prettyprint" data-lang="python">
+          from django.conf.urls import patterns, include, url
+          from apps.pets.views import NewsDetail
+          # Uncomment the next two lines to enable the admin:
+          from django.contrib import admin
+          admin.autodiscover()
+
+          urlpatterns = patterns('',
+
+              url(r'^$', 'apps.pets.views.home', name='home'),
+              url(r'^about$', 'apps.pets.views.about', name='about'),
+              url(r'^pet/(?P<pet_id>\d+)/$', 'apps.pets.views.pet_detail', name='pet_detail'),
+              url(r'^news/(?P<pk>\d+)/$', NewsDetail.as_view(), name='news_detail'),
+
+              url(r'^admin/', include(admin.site.urls)),
+          )
+          </pre>
+        </article>
     </slide>
 
     <slide class="fill nobackground" style="background-image: url(images/full/video-games.jpg)">
@@ -319,10 +378,83 @@
       </hgroup>
     </slide>
 
+    <slide>
+        <article class="smaller">
+          <hgroup>
+            <h3>views.py</h3>
+          </hgroup>
+          <pre class="prettyprint" data-lang="python">
+          from django.http import HttpResponse
+          from django.shortcuts import render, get_object_or_404
+          from django.views.generic import DetailView
+          from apps.pets.models import Pet, News
+
+          def about(request):
+            html = "Hola que hace?"
+            return HttpResponse(html)
+
+          def home(request):
+              template_name='home.html'
+              pets = Pet.objects.all()
+              return render(request, template_name, { 'pets': pets })
+
+          def pet_detail(request, pet_id):
+              """
+              Return a specific pet with its info
+              """
+              template_name='pets/pets_detail.html'
+              pet = get_object_or_404(Pet, pk=pet_id)
+              return render(
+                  request,
+                  template_name,
+                  {'pet': pet}
+              )
+
+          class NewsDetail(DetailView):
+              model = News
+          </pre>
+        </article>
+    </slide>
+
     <slide class="fill nobackground" style="background-image: url(images/full/interface.jpg)">
       <hgroup>
         <h2 class="white">Templates</h2>
       </hgroup>
+    </slide>
+
+    <slide>
+        <article class="smaller">
+          <hgroup>
+            <h3>layout.html &amp; home.html</h3>
+          </hgroup>
+          <pre class="prettyprint" data-lang="html">
+            &lt;!DOCTYPE html&gt;
+            &lt;html&gt;
+              &lt;head&gt;
+                &lt;title&gt;pets news&lt;/title&gt;
+              &lt;/head&gt;
+              &lt;body&gt;
+                {% block content %}{% endblock content %}
+              &lt;/body&gt;
+            &lt;/html&gt;
+          </pre>
+          <pre class="prettyprint" data-lang="html">
+            {% extends 'layout.html' %}
+            {% block content %}
+                &lt;h1&gt;Home&lt;/h1&gt;
+                &lt;ul&gt;
+                    {% for pet in pets %}
+                        &lt;li&gt;{{ pet }}&lt;li&gt;
+                        &lt;ul&gt;
+                            {% for news in pet.news.all %}
+                                &lt;li&gt;{{ news }}&lt;/li&gt;
+                            {% endfor %}
+                        &lt;/ul&gt;
+                    {% endfor %}
+                &lt;/ul&gt;
+            {% endblock content %}
+          </pre>
+        </article>
     </slide>
 
     <slide class="fill nobackground" style="background-image: url(images/full/chips-circuits.jpg)">
@@ -332,36 +464,41 @@
     </slide>
 
     <slide>
+        <article class="smaller">
+          <hgroup>
+            <h3>admin.py</h3>
+          </hgroup>
+          <br/><br/>
+          <pre class="prettyprint" data-lang="python">
+          from django.contrib import admin
+          from .models import *
+
+          admin.site.register(Pet)
+          admin.site.register(News)
+          </pre>
+        </article>
+    </slide>  
+
+    <slide class="fill nobackground" style="background-image: url(images/full/admin-dashboard.png)"></slide>
+
+    <slide>
       <hgroup>
         <h2>And others great components ...</h2>
       </hgroup>
       <article>
         <ul class="build">
-          <li>Authenitcation</li>
+          <li>Forms</li>
           <li>Static Files</li>
+          <li>Authenitcation</li>
+          <li>Tags &amp; filters</li>
           <li>Testing</li>
-          <li>Security</li>
           <li>Internationalization</li>
-          <li>Logging</li>
-          <li>Email Sending</li>
-          <li>RSS</li>
           <li>Messaging</li>
+          <li>Logging</li>
+          <li>Security</li>
+          <li>Email Sending</li>
           <li>Site Maps</li>
-          <li>Testing</li>
-          <li>Testing</li>
-        </ul>
-      </article>
-    </slide>
-
-    <slide>
-      <hgroup>
-        <h2>Great books</h2>
-      </hgroup>
-      <article>
-        <ul>
-          <li>Learn Python the Hard Way</li>
-          <li>The django book (available in Spanish)</li>
-          <li>Two scoops of django best practices for django</li>
+          <li>RSS</li>
         </ul>
       </article>
     </slide>
@@ -381,15 +518,28 @@
 
     <slide>
       <hgroup>
-        <h2>Guidelines to learning ...</h2>
+        <h2>Guidelines to learning </h2>
       </hgroup>
       <article>
         <ul class="build">
-          <li>Don't forget PEP8.</li>
-          <li><a href="http://tutorialdjango.com.ar/"></a>Django tutorial from djangoproject (in Spanish)</li>
+          <li>Don't forget <a href="http://legacy.python.org/dev/peps/pep-0008/">PEP8</a>.</li>
+          <li><a href="http://tutorialdjango.com.ar/">Django tutorial</a> from djangoproject (in Spanish)</li>
           <li>Curso de Django con <a href="http://www.maestrosdelweb.com/editorial/curso-django-introduccion/">maestros del web</a></li>
           <li><a href="https://github.com/geoom/django-basic-apps">Django basic apps</a>.</li>
           <li>Searching in <a href="https://github.com/search?q=stars%3A%3E3+pushed%3A%22%3E+2013-01-01%22+extension%3Apy+django&type=Repositories&ref=searchresults">Github</a>.</li>
+        </ul>
+      </article>
+    </slide>
+
+    <slide>
+      <hgroup>
+        <h2>Great books</h2>
+      </hgroup>
+      <article>
+        <ul>
+          <li><a href="http://www.djangobook.com/">The django book</a> (available in Spanish and free of charge)</li>
+          <li><a href="http://learnpythonthehardway.org/">Learn Python the Hard Way</a></li>
+          <li><a href="http://www.amazon.es/Two-Scoops-Django-Best-Practices/dp/098146730X">Two scoops of django:</a> best practices for django</li>
         </ul>
       </article>
     </slide>
