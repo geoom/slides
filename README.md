@@ -1,4 +1,0 @@
-mySlides
-========
-
-nothing for now
